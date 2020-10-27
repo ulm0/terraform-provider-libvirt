@@ -147,7 +147,6 @@ func (ci *defCloudInit) createISO() (string, error) {
 		"-volid",
 		"cidata",
 		"-joliet",
-		"-rock",
 		filepath.Join(tmpDir, userDataFileName),
 		filepath.Join(tmpDir, metaDataFileName),
 		filepath.Join(tmpDir, networkConfigFileName))
